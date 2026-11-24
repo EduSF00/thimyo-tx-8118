@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "asebaros_msgs/srv/GetNodeList_Request",
+      "fields": [
+        {
+          "name": "ignored",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "False"
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "asebaros_msgs/srv/GetNodeList_Request",
+      "hash_string": "RIHS01_9e4001a66b5a1c912060fd921a078cad9fcbc827f562435f8c352ef266e364b4"
+    }
+  ]
+}

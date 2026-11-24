@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from asebaros_msgs/msg/Node.msg
+// generated code does not contain a copyright notice
+
+
+module asebaros_msgs {
+  module msg {
+    struct Node {
+      uint16 id;
+
+      string name;
+
+      string name_space;
+
+      boolean running;
+
+      boolean ignored;
+
+      boolean connected;
+    };
+  };
+};

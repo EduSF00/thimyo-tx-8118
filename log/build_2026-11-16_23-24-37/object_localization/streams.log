@@ -1,0 +1,20 @@
+[0.841s] Invoking command in '/home/eduardo/TX/build/object_localization': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eduardo/TX/build/object_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/TX/install/object_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eduardo/TX/build/object_localization/build --no-deps symlink_data
+[1.046s] running develop
+[1.137s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[1.137s]   self.local_index = Environment(self.shadow_path + sys.path)
+[1.156s] running egg_info
+[1.167s] writing object_localization.egg-info/PKG-INFO
+[1.167s] writing dependency_links to object_localization.egg-info/dependency_links.txt
+[1.167s] writing entry points to object_localization.egg-info/entry_points.txt
+[1.167s] writing requirements to object_localization.egg-info/requires.txt
+[1.167s] writing top-level names to object_localization.egg-info/top_level.txt
+[1.189s] reading manifest file 'object_localization.egg-info/SOURCES.txt'
+[1.189s] writing manifest file 'object_localization.egg-info/SOURCES.txt'
+[1.202s] running build_ext
+[1.202s] Creating /home/eduardo/TX/install/object_localization/lib/python3.12/site-packages/object-localization.egg-link (link to .)
+[1.202s] Installing error script to /home/eduardo/TX/install/object_localization/lib/object_localization
+[1.202s] Installing position script to /home/eduardo/TX/install/object_localization/lib/object_localization
+[1.202s] 
+[1.202s] Installed /home/eduardo/TX/build/object_localization
+[1.202s] running symlink_data
+[1.230s] Invoked command in '/home/eduardo/TX/build/object_localization' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eduardo/TX/build/object_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/TX/install/object_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eduardo/TX/build/object_localization/build --no-deps symlink_data

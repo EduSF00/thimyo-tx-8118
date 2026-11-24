@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/aseba-subbuild/CMakeFiles/aseba-populate"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/aseba-subbuild/CMakeFiles/aseba-populate.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/aseba-subbuild/CMakeFiles/aseba-populate-complete.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/aseba-subbuild/aseba-populate-prefix/src/aseba-populate-stamp/aseba-populate-build.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/aseba-subbuild/aseba-populate-prefix/src/aseba-populate-stamp/aseba-populate-configure.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/aseba-subbuild/aseba-populate-prefix/src/aseba-populate-stamp/aseba-populate-download.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/aseba-subbuild/aseba-populate-prefix/src/aseba-populate-stamp/aseba-populate-install.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/aseba-subbuild/aseba-populate-prefix/src/aseba-populate-stamp/aseba-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/aseba-subbuild/aseba-populate-prefix/src/aseba-populate-stamp/aseba-populate-patch.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/aseba-subbuild/aseba-populate-prefix/src/aseba-populate-stamp/aseba-populate-test.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/aseba-subbuild/aseba-populate-prefix/src/aseba-populate-stamp/aseba-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"aseba-populate"
+		],
+		"name" : "aseba-populate"
+	}
+}

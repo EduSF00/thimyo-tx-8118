@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "aseba/common",
+		"source" : "/home/eduardo/TX/build/asebaros/_deps/aseba-src/aseba/common"
+	}
+}

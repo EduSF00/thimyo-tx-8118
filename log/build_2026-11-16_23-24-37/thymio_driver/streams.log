@@ -1,0 +1,37 @@
+[0.768s] Invoking command in '/home/eduardo/TX/build/thymio_driver': CMAKE_PREFIX_PATH=/home/eduardo/TX/install/thymio_msgs:/home/eduardo/TX/install/asebaros_msgs:/home/eduardo/TX/install/thymio_description:/home/eduardo/TX/install/asebaros_examples:/home/eduardo/TX/install/asebaros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eduardo/TX/build/thymio_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/TX/install/thymio_driver/lib/python3.12/site-packages:/home/eduardo/TX/install/thymio_msgs/lib/python3.12/site-packages:/home/eduardo/TX/install/asebaros_msgs/lib/python3.12/site-packages:/home/eduardo/TX/build/thymio_driver:/home/eduardo/TX/install/thymio_driver/lib/python3.12/site-packages:/home/eduardo/TX/build/object_localization:/home/eduardo/TX/install/object_localization/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eduardo/TX/build/thymio_driver/build --no-deps symlink_data
+[0.861s] /usr/lib/python3/dist-packages/setuptools/dist.py:744: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.861s] !!
+[0.861s] 
+[0.861s]         ********************************************************************************
+[0.861s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.861s]         versions. Please use the underscore name 'script_dir' instead.
+[0.861s] 
+[0.861s]         This deprecation is overdue, please update your project and remove deprecated
+[0.862s]         calls to avoid build errors in the future.
+[0.862s] 
+[0.862s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.862s]         ********************************************************************************
+[0.862s] 
+[0.862s] !!
+[0.862s]   opt = self.warn_dash_deprecation(opt, section)
+[0.971s] running develop
+[1.059s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+[1.059s]   self.local_index = Environment(self.shadow_path + sys.path)
+[1.078s] running egg_info
+[1.089s] writing thymio_driver.egg-info/PKG-INFO
+[1.089s] writing dependency_links to thymio_driver.egg-info/dependency_links.txt
+[1.089s] writing entry points to thymio_driver.egg-info/entry_points.txt
+[1.090s] writing requirements to thymio_driver.egg-info/requires.txt
+[1.090s] writing top-level names to thymio_driver.egg-info/top_level.txt
+[1.111s] reading manifest file 'thymio_driver.egg-info/SOURCES.txt'
+[1.111s] writing manifest file 'thymio_driver.egg-info/SOURCES.txt'
+[1.122s] running build_ext
+[1.122s] Creating /home/eduardo/TX/install/thymio_driver/lib/python3.12/site-packages/thymio-driver.egg-link (link to .)
+[1.123s] Installing calibrate_motors script to /home/eduardo/TX/install/thymio_driver/lib/thymio_driver
+[1.123s] Installing follow_square script to /home/eduardo/TX/install/thymio_driver/lib/thymio_driver
+[1.123s] Installing multi_thymio_driver script to /home/eduardo/TX/install/thymio_driver/lib/thymio_driver
+[1.123s] Installing thymio_driver script to /home/eduardo/TX/install/thymio_driver/lib/thymio_driver
+[1.123s] 
+[1.123s] Installed /home/eduardo/TX/build/thymio_driver
+[1.123s] running symlink_data
+[1.147s] Invoked command in '/home/eduardo/TX/build/thymio_driver' returned '0': CMAKE_PREFIX_PATH=/home/eduardo/TX/install/thymio_msgs:/home/eduardo/TX/install/asebaros_msgs:/home/eduardo/TX/install/thymio_description:/home/eduardo/TX/install/asebaros_examples:/home/eduardo/TX/install/asebaros:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/eduardo/TX/build/thymio_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/TX/install/thymio_driver/lib/python3.12/site-packages:/home/eduardo/TX/install/thymio_msgs/lib/python3.12/site-packages:/home/eduardo/TX/install/asebaros_msgs/lib/python3.12/site-packages:/home/eduardo/TX/build/thymio_driver:/home/eduardo/TX/install/thymio_driver/lib/python3.12/site-packages:/home/eduardo/TX/build/object_localization:/home/eduardo/TX/install/object_localization/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/eduardo/TX/build/thymio_driver/build --no-deps symlink_data

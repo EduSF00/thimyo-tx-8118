@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/dashel-subbuild/CMakeFiles/dashel-populate"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/dashel-subbuild/CMakeFiles/dashel-populate.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/dashel-subbuild/CMakeFiles/dashel-populate-complete.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/dashel-subbuild/dashel-populate-prefix/src/dashel-populate-stamp/dashel-populate-build.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/dashel-subbuild/dashel-populate-prefix/src/dashel-populate-stamp/dashel-populate-configure.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/dashel-subbuild/dashel-populate-prefix/src/dashel-populate-stamp/dashel-populate-download.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/dashel-subbuild/dashel-populate-prefix/src/dashel-populate-stamp/dashel-populate-install.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/dashel-subbuild/dashel-populate-prefix/src/dashel-populate-stamp/dashel-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/dashel-subbuild/dashel-populate-prefix/src/dashel-populate-stamp/dashel-populate-patch.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/dashel-subbuild/dashel-populate-prefix/src/dashel-populate-stamp/dashel-populate-test.rule"
+		},
+		{
+			"file" : "/home/eduardo/TX/build/asebaros/_deps/dashel-subbuild/dashel-populate-prefix/src/dashel-populate-stamp/dashel-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dashel-populate"
+		],
+		"name" : "dashel-populate"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "aseba/transport/dashel_plugins",
+		"source" : "/home/eduardo/TX/build/asebaros/_deps/aseba-src/aseba/transport/dashel_plugins"
+	}
+}

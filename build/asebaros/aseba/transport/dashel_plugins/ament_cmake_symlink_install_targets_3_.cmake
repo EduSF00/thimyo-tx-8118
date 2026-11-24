@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/eduardo/TX/build/asebaros/aseba/transport/dashel_plugins/libasebadashelplugins.so.3.0.0" "TARGETS" "asebadashelplugins" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib")

@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from asebaros_msgs/msg/NodeList.msg
+// generated code does not contain a copyright notice
+
+#include "asebaros_msgs/msg/Node.idl"
+
+module asebaros_msgs {
+  module msg {
+    struct NodeList {
+      sequence<asebaros_msgs::msg::Node> nodes;
+    };
+  };
+};

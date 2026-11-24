@@ -1,0 +1,9 @@
+setup.py
+project_msgs/__init__.py
+project_msgs.egg-info/PKG-INFO
+project_msgs.egg-info/SOURCES.txt
+project_msgs.egg-info/dependency_links.txt
+project_msgs.egg-info/top_level.txt
+project_msgs/msg/__init__.py
+project_msgs/msg/_error.py
+project_msgs/msg/_localization_object.py

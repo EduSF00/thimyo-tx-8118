@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from asebaros_msgs/srv/GetVariable.srv
+// generated code does not contain a copyright notice
+
+
+module asebaros_msgs {
+  module srv {
+    struct GetVariable_Request {
+      string variable;
+    };
+    struct GetVariable_Response {
+      sequence<int16> data;
+    };
+  };
+};

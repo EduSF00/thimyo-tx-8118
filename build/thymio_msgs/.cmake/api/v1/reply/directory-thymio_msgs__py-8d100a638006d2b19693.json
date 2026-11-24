@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "thymio_msgs__py",
+		"source" : "/home/eduardo/TX/build/thymio_msgs/thymio_msgs__py"
+	}
+}

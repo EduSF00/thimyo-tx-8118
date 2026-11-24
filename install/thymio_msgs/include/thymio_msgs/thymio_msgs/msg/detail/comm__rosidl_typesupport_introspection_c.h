@@ -1,0 +1,1 @@
+/home/eduardo/TX/build/thymio_msgs/rosidl_typesupport_introspection_c/thymio_msgs/msg/detail/comm__rosidl_typesupport_introspection_c.h

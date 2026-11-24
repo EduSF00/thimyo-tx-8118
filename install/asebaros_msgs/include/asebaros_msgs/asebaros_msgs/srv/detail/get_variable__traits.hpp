@@ -1,0 +1,1 @@
+/home/eduardo/TX/build/asebaros_msgs/rosidl_generator_cpp/asebaros_msgs/srv/detail/get_variable__traits.hpp

@@ -1,0 +1,18 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+  self.local_index = Environment(self.shadow_path + sys.path)
+running egg_info
+writing object_localization.egg-info/PKG-INFO
+writing dependency_links to object_localization.egg-info/dependency_links.txt
+writing entry points to object_localization.egg-info/entry_points.txt
+writing requirements to object_localization.egg-info/requires.txt
+writing top-level names to object_localization.egg-info/top_level.txt
+reading manifest file 'object_localization.egg-info/SOURCES.txt'
+writing manifest file 'object_localization.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eduardo/TX/install/object_localization/lib/python3.12/site-packages/object-localization.egg-link (link to .)
+Installing error script to /home/eduardo/TX/install/object_localization/lib/object_localization
+Installing position script to /home/eduardo/TX/install/object_localization/lib/object_localization
+
+Installed /home/eduardo/TX/build/object_localization
+running symlink_data

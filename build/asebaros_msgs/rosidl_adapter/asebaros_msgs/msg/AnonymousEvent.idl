@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from asebaros_msgs/msg/AnonymousEvent.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module asebaros_msgs {
+  module msg {
+    struct AnonymousEvent {
+      builtin_interfaces::msg::Time stamp;
+
+      uint16 source;
+
+      uint16 type;
+
+      sequence<int16> data;
+    };
+  };
+};

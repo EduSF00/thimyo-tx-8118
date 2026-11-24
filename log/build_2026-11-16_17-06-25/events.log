@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000152] (asebaros_msgs) JobQueued: {'identifier': 'asebaros_msgs', 'dependencies': OrderedDict()}
+[0.000198] (object-distance) JobQueued: {'identifier': 'object-distance', 'dependencies': OrderedDict()}
+[0.000221] (object_localization) JobQueued: {'identifier': 'object_localization', 'dependencies': OrderedDict()}
+[0.000240] (robot-scan) JobQueued: {'identifier': 'robot-scan', 'dependencies': OrderedDict()}
+[0.000257] (thymio_description) JobQueued: {'identifier': 'thymio_description', 'dependencies': OrderedDict()}
+[0.000274] (thymio_msgs) JobQueued: {'identifier': 'thymio_msgs', 'dependencies': OrderedDict()}
+[0.000289] (asebaros) JobQueued: {'identifier': 'asebaros', 'dependencies': OrderedDict({'asebaros_msgs': '/home/eduardo/TX/install/asebaros_msgs'})}
+[0.000310] (thymio_driver) JobQueued: {'identifier': 'thymio_driver', 'dependencies': OrderedDict({'asebaros_msgs': '/home/eduardo/TX/install/asebaros_msgs', 'thymio_msgs': '/home/eduardo/TX/install/thymio_msgs'})}
+[0.000330] (asebaros_examples) JobQueued: {'identifier': 'asebaros_examples', 'dependencies': OrderedDict({'asebaros_msgs': '/home/eduardo/TX/install/asebaros_msgs', 'asebaros': '/home/eduardo/TX/install/asebaros'})}
+[0.000348] (asebaros_msgs) JobStarted: {'identifier': 'asebaros_msgs'}
+[0.006243] (thymio_msgs) JobStarted: {'identifier': 'thymio_msgs'}
+[0.008320] (object-distance) JobStarted: {'identifier': 'object-distance'}
+[0.011415] (object_localization) JobStarted: {'identifier': 'object_localization'}
+[0.013955] (robot-scan) JobStarted: {'identifier': 'robot-scan'}
+[0.016316] (thymio_description) JobStarted: {'identifier': 'thymio_description'}
+[0.019062] (asebaros_msgs) JobProgress: {'identifier': 'asebaros_msgs', 'progress': 'cmake'}
+[0.019216] (asebaros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/eduardo/TX/src/ros-aseba/asebaros_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/eduardo/TX/install/asebaros_msgs'], 'cwd': '/home/eduardo/TX/build/asebaros_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'eduardo', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/eduardo', 'OLDPWD': '/home/eduardo/TX', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2656', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/eduardo/TX/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'eduardo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'eduardo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/eduardo-LOQ-15IAX9E:@/tmp/.ICE-unix/2611,unix/eduardo-LOQ-15IAX9E:/tmp/.ICE-unix/2611', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/caf8bce8_bbaf_40ba_bca3_0cdabb5df1a0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.141', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/eduardo/TX/install/object_localization:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eduardo/TX/build/asebaros_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SIMULATION': 'False', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/eduardo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eduardo/TX/build/object_localization:/home/eduardo/TX/install/object_localization/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/eduardo/TX/install/object_localization:/opt/ros/jazzy', 'DEVICE': 'ser:name=Thymio'}), 'shell': False}
+[0.022349] (thymio_msgs) JobProgress: {'identifier': 'thymio_msgs', 'progress': 'cmake'}
+[0.022577] (thymio_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/eduardo/TX/src/ros-thymio/thymio_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/eduardo/TX/install/thymio_msgs'], 'cwd': '/home/eduardo/TX/build/thymio_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'eduardo', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/eduardo', 'OLDPWD': '/home/eduardo/TX', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2656', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/eduardo/TX/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'eduardo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'eduardo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/eduardo-LOQ-15IAX9E:@/tmp/.ICE-unix/2611,unix/eduardo-LOQ-15IAX9E:/tmp/.ICE-unix/2611', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/caf8bce8_bbaf_40ba_bca3_0cdabb5df1a0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.141', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/eduardo/TX/install/object_localization:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/eduardo/TX/build/thymio_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'SIMULATION': 'False', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/eduardo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eduardo/TX/build/object_localization:/home/eduardo/TX/install/object_localization/lib/python3.12/site-packages:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/eduardo/TX/install/object_localization:/opt/ros/jazzy', 'DEVICE': 'ser:name=Thymio'}), 'shell': False}
+[0.099499] (-) TimerEvent: {}
+[0.199749] (-) TimerEvent: {}
+[0.231922] (object-distance) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 120, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n                ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n           ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n                                             ^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n             ^^^^^^^^^^^^^^^\n  File "/usr/lib/python3.12/subprocess.py", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[0.232325] (object-distance) JobEnded: {'identifier': 'object-distance', 'rc': 1}
+[0.299861] (-) TimerEvent: {}
+[0.400074] (-) TimerEvent: {}
+[0.500292] (-) TimerEvent: {}
+[0.522947] (asebaros_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.523390] (asebaros_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.523435] (asebaros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.523468] (asebaros_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.523499] (asebaros_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.523531] (asebaros_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.523563] (asebaros_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.523594] (asebaros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.523626] (thymio_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.523674] (thymio_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.523705] (thymio_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.523737] (thymio_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.523768] (thymio_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.523799] (thymio_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.523845] (thymio_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.523879] (thymio_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.523910] (object_localization) JobEnded: {'identifier': 'object_localization', 'rc': 'SIGINT'}
+[0.524757] (robot-scan) JobEnded: {'identifier': 'robot-scan', 'rc': 'SIGINT'}
+[0.524986] (thymio_description) JobEnded: {'identifier': 'thymio_description', 'rc': 'SIGINT'}
+[0.545765] (thymio_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.546179] (asebaros_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.551567] (thymio_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.551672] (thymio_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.551995] (thymio_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.557856] (asebaros_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.558081] (asebaros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.558696] (asebaros_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.565542] (thymio_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.565643] (asebaros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600444] (-) TimerEvent: {}
+[0.700687] (-) TimerEvent: {}
+[0.722582] (thymio_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.724073] (asebaros_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.794577] (asebaros_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.800800] (-) TimerEvent: {}
+[0.802972] (thymio_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.827560] (thymio_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[0.828969] (asebaros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.841128] (asebaros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.863588] (thymio_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.872404] (thymio_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.887428] (thymio_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.900120] (thymio_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900856] (-) TimerEvent: {}
+[0.901898] (asebaros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.913038] (thymio_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.927051] (thymio_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.929649] (asebaros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.931422] (asebaros_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[1.001031] (-) TimerEvent: {}
+[1.101289] (-) TimerEvent: {}
+[1.201494] (-) TimerEvent: {}
+[1.301755] (-) TimerEvent: {}
+[1.401977] (-) TimerEvent: {}
+[1.502190] (-) TimerEvent: {}
+[1.557359] (thymio_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.577964] (asebaros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.602290] (-) TimerEvent: {}
+[1.702567] (-) TimerEvent: {}
+[1.802796] (-) TimerEvent: {}
+[1.902978] (-) TimerEvent: {}
+[2.003176] (-) TimerEvent: {}
+[2.071879] (asebaros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.103271] (-) TimerEvent: {}
+[2.203516] (-) TimerEvent: {}
+[2.303735] (-) TimerEvent: {}
+[2.363978] (thymio_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.403875] (-) TimerEvent: {}
+[2.504095] (-) TimerEvent: {}
+[2.604359] (-) TimerEvent: {}
+[2.679601] (thymio_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.685853] (thymio_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.703871] (asebaros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.704436] (-) TimerEvent: {}
+[2.706681] (asebaros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.804547] (-) TimerEvent: {}
+[2.839812] (thymio_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.864325] (asebaros_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[2.904686] (-) TimerEvent: {}
+[3.004964] (-) TimerEvent: {}
+[3.105180] (-) TimerEvent: {}
+[3.205411] (-) TimerEvent: {}
+[3.305647] (-) TimerEvent: {}
+[3.336126] (thymio_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.343064] (asebaros_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.405799] (-) TimerEvent: {}
+[3.409383] (thymio_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.414256] (asebaros_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.427715] (thymio_msgs) StdoutLine: {'line': b'-- Configuring done (3.4s)\n'}
+[3.428105] (asebaros_msgs) StdoutLine: {'line': b'-- Configuring done (3.4s)\n'}
+[3.471440] (thymio_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.477025] (asebaros_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.484059] (thymio_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/eduardo/TX/build/thymio_msgs\n'}
+[3.484561] (asebaros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/eduardo/TX/build/asebaros_msgs\n'}
+[3.491518] (thymio_msgs) JobEnded: {'identifier': 'thymio_msgs', 'rc': 'SIGINT'}
+[3.492015] (asebaros_msgs) JobEnded: {'identifier': 'asebaros_msgs', 'rc': 'SIGINT'}
+[3.502594] (asebaros) JobSkipped: {'identifier': 'asebaros'}
+[3.502647] (thymio_driver) JobSkipped: {'identifier': 'thymio_driver'}
+[3.502656] (asebaros_examples) JobSkipped: {'identifier': 'asebaros_examples'}
+[3.502663] (-) EventReactorShutdown: {}

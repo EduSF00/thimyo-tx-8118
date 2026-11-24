@@ -1,0 +1,53 @@
+[0.654s] Invoking command in '/home/eduardo/TX/src/project': AMENT_PREFIX_PATH=/home/eduardo/TX/install/project_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eduardo/TX/install/project_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eduardo/TX/install/project_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eduardo/TX/build/project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/TX/install/project/lib/python3.12/site-packages:/home/eduardo/TX/install/project_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project build --build-base /home/eduardo/TX/build/project/build install --record /home/eduardo/TX/build/project/install.log --install-scripts $base/lib/project --single-version-externally-managed install_data
+[0.822s] running egg_info
+[0.833s] writing ../../build/project/project.egg-info/PKG-INFO
+[0.833s] writing dependency_links to ../../build/project/project.egg-info/dependency_links.txt
+[0.833s] writing entry points to ../../build/project/project.egg-info/entry_points.txt
+[0.833s] writing requirements to ../../build/project/project.egg-info/requires.txt
+[0.833s] writing top-level names to ../../build/project/project.egg-info/top_level.txt
+[0.854s] reading manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[0.854s] adding license file 'LICENSE'
+[0.854s] writing manifest file '../../build/project/project.egg-info/SOURCES.txt'
+[0.855s] running build
+[0.855s] running build_py
+[0.855s] creating /home/eduardo/TX/build/project/build/lib/project/control
+[0.855s] copying project/control/__init__.py -> /home/eduardo/TX/build/project/build/lib/project/control
+[0.855s] creating /home/eduardo/TX/build/project/build/lib/project/sensor
+[0.855s] copying project/sensor/publisher_trajectory.py -> /home/eduardo/TX/build/project/build/lib/project/sensor
+[0.855s] copying project/sensor/front_object_node.py -> /home/eduardo/TX/build/project/build/lib/project/sensor
+[0.855s] copying project/sensor/__init__.py -> /home/eduardo/TX/build/project/build/lib/project/sensor
+[0.855s] creating /home/eduardo/TX/build/project/build/lib/project/nav
+[0.855s] copying project/nav/__init__.py -> /home/eduardo/TX/build/project/build/lib/project/nav
+[0.855s] creating /home/eduardo/TX/build/project/build/lib/project/system
+[0.855s] copying project/system/__init__.py -> /home/eduardo/TX/build/project/build/lib/project/system
+[0.855s] running install
+[0.859s] running install_lib
+[0.870s] creating /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/control
+[0.870s] copying /home/eduardo/TX/build/project/build/lib/project/control/__init__.py -> /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/control
+[0.870s] creating /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/sensor
+[0.870s] copying /home/eduardo/TX/build/project/build/lib/project/sensor/publisher_trajectory.py -> /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/sensor
+[0.870s] copying /home/eduardo/TX/build/project/build/lib/project/sensor/front_object_node.py -> /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/sensor
+[0.870s] copying /home/eduardo/TX/build/project/build/lib/project/sensor/__init__.py -> /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/sensor
+[0.870s] creating /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/nav
+[0.870s] copying /home/eduardo/TX/build/project/build/lib/project/nav/__init__.py -> /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/nav
+[0.870s] creating /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/system
+[0.870s] copying /home/eduardo/TX/build/project/build/lib/project/system/__init__.py -> /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/system
+[0.871s] byte-compiling /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/control/__init__.py to __init__.cpython-312.pyc
+[0.871s] byte-compiling /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/sensor/publisher_trajectory.py to publisher_trajectory.cpython-312.pyc
+[0.871s] byte-compiling /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/sensor/front_object_node.py to front_object_node.cpython-312.pyc
+[0.872s] byte-compiling /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/sensor/__init__.py to __init__.cpython-312.pyc
+[0.872s] byte-compiling /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/nav/__init__.py to __init__.cpython-312.pyc
+[0.872s] byte-compiling /home/eduardo/TX/install/project/lib/python3.12/site-packages/project/system/__init__.py to __init__.cpython-312.pyc
+[0.872s] running install_data
+[0.872s] copying package.xml -> /home/eduardo/TX/install/project/share/project
+[0.872s] creating /home/eduardo/TX/install/project/share/project/launch
+[0.872s] copying launch/sim_bringup.launch.py -> /home/eduardo/TX/install/project/share/project/launch
+[0.872s] creating /home/eduardo/TX/install/project/share/project/config
+[0.872s] copying config/sim_params.yaml -> /home/eduardo/TX/install/project/share/project/config
+[0.872s] running install_egg_info
+[0.884s] removing '/home/eduardo/TX/install/project/lib/python3.12/site-packages/project-0.0.0-py3.12.egg-info' (and everything under it)
+[0.884s] Copying ../../build/project/project.egg-info to /home/eduardo/TX/install/project/lib/python3.12/site-packages/project-0.0.0-py3.12.egg-info
+[0.886s] running install_scripts
+[0.959s] Installing front_object script to /home/eduardo/TX/install/project/lib/project
+[0.960s] writing list of installed files to '/home/eduardo/TX/build/project/install.log'
+[0.979s] Invoked command in '/home/eduardo/TX/src/project' returned '0': AMENT_PREFIX_PATH=/home/eduardo/TX/install/project_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eduardo/TX/install/project_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eduardo/TX/install/project_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eduardo/TX/build/project/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eduardo/TX/install/project/lib/python3.12/site-packages:/home/eduardo/TX/install/project_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/project build --build-base /home/eduardo/TX/build/project/build install --record /home/eduardo/TX/build/project/install.log --install-scripts $base/lib/project --single-version-externally-managed install_data

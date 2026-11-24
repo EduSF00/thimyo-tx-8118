@@ -1,0 +1,1 @@
+/home/eduardo/TX/build/asebaros_msgs/rosidl_generator_c/asebaros_msgs/srv/detail/get_node_list__struct.h

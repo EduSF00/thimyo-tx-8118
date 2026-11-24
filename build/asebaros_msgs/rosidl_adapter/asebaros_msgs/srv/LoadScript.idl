@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from asebaros_msgs/srv/LoadScript.srv
+// generated code does not contain a copyright notice
+
+#include "asebaros_msgs/msg/Constant.idl"
+
+module asebaros_msgs {
+  module srv {
+    struct LoadScript_Request {
+      string file_name;
+
+      sequence<asebaros_msgs::msg::Constant> constants;
+
+      @verbatim (language="comment", text=
+        "Leave empty to load to all nodes")
+      sequence<uint16> node_ids;
+
+      @default (value=FALSE)
+      boolean set_as_default;
+    };
+    struct LoadScript_Response {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

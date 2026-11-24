@@ -1,0 +1,134 @@
+[0.012s] Invoking command in '/home/eduardo/TX/build/asebaros': AMENT_PREFIX_PATH=/home/eduardo/TX/install/asebaros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eduardo/TX/install/asebaros_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/eduardo/TX/install/object_localization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eduardo/TX/install/asebaros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eduardo/TX/install/asebaros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/eduardo/TX/src/ros-aseba/asebaros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eduardo/TX/install/asebaros
+[0.070s] -- The C compiler identification is GNU 13.3.0
+[0.129s] -- The CXX compiler identification is GNU 13.3.0
+[0.144s] -- Detecting C compiler ABI info
+[0.232s] -- Detecting C compiler ABI info - done
+[0.243s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.243s] -- Detecting C compile features
+[0.243s] -- Detecting C compile features - done
+[0.252s] -- Detecting CXX compiler ABI info
+[0.355s] -- Detecting CXX compiler ABI info - done
+[0.366s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.367s] -- Detecting CXX compile features
+[0.367s] -- Detecting CXX compile features - done
+[0.370s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.525s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.587s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.632s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.674s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.681s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.690s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.701s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.779s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.782s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.857s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.872s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.888s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.951s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.961s] -- Found asebaros_msgs: 0.1.0 (/home/eduardo/TX/install/asebaros_msgs/share/asebaros_msgs/cmake)
+[1.025s] -- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.14") 
+[1.049s] [0mWill use ROS diagnostics[0m
+[1.049s] [0mUsing ROS VERSION 2[0m
+[1.051s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.438s] [0mCMake Deprecation Warning at /home/eduardo/TX/build/asebaros/_deps/dashel-src/CMakeLists.txt:1 (cmake_minimum_required):
+[3.438s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[3.438s]   CMake.
+[3.438s] 
+[3.438s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[3.438s]   CMake that the project does not need compatibility with older versions.
+[3.438s] 
+[3.438s] [0m
+[3.443s] -- libudev found
+[9.784s] -- Enabling Dashel socketcan plugin
+[9.792s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.795s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.796s] -- Configured cppcheck include dirs: /home/eduardo/TX/src/ros-aseba/asebaros/aseba;$<BUILD_INTERFACE:/home/eduardo/TX/src/ros-aseba/asebaros/include>
+[9.796s] -- Configured cppcheck exclude dirs and/or files: 
+[9.798s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.798s] -- Configured cpplint exclude dirs and/or files: 
+[9.800s] -- Added test 'lint_cmake' to check CMake code style
+[9.801s] -- Added test 'uncrustify' to check C / C++ code style
+[9.801s] -- Configured uncrustify additional arguments: 
+[9.802s] -- Added test 'xmllint' to check XML markup files
+[9.803s] -- Configuring done (9.8s)
+[9.824s] -- Generating done (0.0s)
+[9.829s] -- Build files have been written to: /home/eduardo/TX/build/asebaros
+[9.838s] Invoked command in '/home/eduardo/TX/build/asebaros' returned '0': AMENT_PREFIX_PATH=/home/eduardo/TX/install/asebaros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eduardo/TX/install/asebaros_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/eduardo/TX/install/object_localization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eduardo/TX/install/asebaros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eduardo/TX/install/asebaros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/eduardo/TX/src/ros-aseba/asebaros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eduardo/TX/install/asebaros
+[9.839s] Invoking command in '/home/eduardo/TX/build/asebaros': AMENT_PREFIX_PATH=/home/eduardo/TX/install/asebaros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eduardo/TX/install/asebaros_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/eduardo/TX/install/object_localization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eduardo/TX/install/asebaros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eduardo/TX/install/asebaros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eduardo/TX/build/asebaros -- -j8 -l8
+[9.903s] [  5%] [32mBuilding CXX object _deps/dashel-build/CMakeFiles/dashel.dir/dashel/dashel-common.cpp.o[0m
+[9.903s] [  5%] [32mBuilding CXX object _deps/dashel-build/CMakeFiles/dashel.dir/dashel/dashel-posix.cpp.o[0m
+[10.489s] [  8%] [32m[1mLinking CXX shared library libdashel.so[0m
+[10.592s] [  8%] Built target dashel
+[10.611s] [ 11%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/utils/utils.cpp.o[0m
+[10.611s] [ 14%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/utils/FormatableString.cpp.o[0m
+[10.611s] [ 17%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/msg/NodesManager.cpp.o[0m
+[10.612s] [ 20%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/utils/BootloaderInterface.cpp.o[0m
+[10.612s] [ 23%] [32mBuilding CXX object aseba/transport/dashel_plugins/CMakeFiles/asebadashelplugins.dir/socketcan.cpp.o[0m
+[10.612s] [ 26%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/msg/msg.cpp.o[0m
+[10.612s] [ 29%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/utils/HexFile.cpp.o[0m
+[10.613s] [ 32%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/msg/TargetDescription.cpp.o[0m
+[10.820s] [ 35%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/version.cpp.o[0m
+[11.060s] [ 38%] [32m[1mLinking CXX shared library libasebadashelplugins.so[0m
+[11.172s] [ 38%] Built target asebadashelplugins
+[11.683s] [ 41%] [32m[1mLinking CXX shared library libasebacommon.so[0m
+[11.810s] [ 41%] Built target asebacommon
+[11.834s] [ 44%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/parser.cpp.o[0m
+[11.835s] [ 47%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/tree-expand.cpp.o[0m
+[11.835s] [ 50%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/errors.cpp.o[0m
+[11.838s] [ 52%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/compiler.cpp.o[0m
+[11.839s] [ 55%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/tree-build.cpp.o[0m
+[11.839s] [ 58%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/analysis.cpp.o[0m
+[11.841s] [ 61%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/lexer.cpp.o[0m
+[11.846s] [ 64%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/identifier-lookup.cpp.o[0m
+[12.145s] [ 67%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/tree-dump.cpp.o[0m
+[12.320s] [ 70%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/tree-optimize.cpp.o[0m
+[12.322s] [ 73%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/tree-typecheck.cpp.o[0m
+[12.351s] [ 76%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/tree-emit.cpp.o[0m
+[13.005s] [ 79%] [32m[1mLinking CXX shared library libasebacompiler.so[0m
+[13.123s] [ 79%] Built target asebacompiler
+[13.145s] [ 82%] [32mBuilding CXX object CMakeFiles/asebaros.dir/src/asebaros_node_ros2.cpp.o[0m
+[13.145s] [ 85%] [32mBuilding CXX object CMakeFiles/asebaros.dir/src/asebaros_node_manager_ros2.cpp.o[0m
+[13.150s] [ 91%] [32mBuilding CXX object CMakeFiles/asebaros.dir/src/aseba_dashel_hub.cpp.o[0m
+[13.150s] [ 91%] [32mBuilding CXX object CMakeFiles/asebaros.dir/src/asebaros_node.cpp.o[0m
+[13.150s] [ 94%] [32mBuilding CXX object CMakeFiles/asebaros.dir/src/aseba_script.cpp.o[0m
+[13.151s] [ 97%] [32mBuilding CXX object CMakeFiles/asebaros.dir/src/asebaros_node_manager.cpp.o[0m
+[21.080s] [100%] [32m[1mLinking CXX executable asebaros[0m
+[21.682s] [100%] Built target asebaros
+[21.741s] Invoked command in '/home/eduardo/TX/build/asebaros' returned '0': AMENT_PREFIX_PATH=/home/eduardo/TX/install/asebaros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eduardo/TX/install/asebaros_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/eduardo/TX/install/object_localization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eduardo/TX/install/asebaros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eduardo/TX/install/asebaros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/eduardo/TX/build/asebaros -- -j8 -l8
+[21.783s] Invoking command in '/home/eduardo/TX/build/asebaros': AMENT_PREFIX_PATH=/home/eduardo/TX/install/asebaros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eduardo/TX/install/asebaros_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/eduardo/TX/install/object_localization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eduardo/TX/install/asebaros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eduardo/TX/install/asebaros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eduardo/TX/build/asebaros
+[21.801s] -- Install configuration: ""
+[21.802s] -- Execute custom install script
+[21.804s] -- Symlinking: /home/eduardo/TX/install/asebaros/include/dashel/dashel.h
+[21.816s] -- Symlinking: /home/eduardo/TX/install/asebaros/include/dashel/dashel-posix.h
+[21.832s] -- Symlinking: /home/eduardo/TX/install/asebaros/lib/libdashel.so.1.3.3
+[21.843s] -- Symlinking: /home/eduardo/TX/install/asebaros/lib/libasebacommon.so.3.0.0
+[21.853s] -- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/utils/utils.h
+[21.862s] -- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/utils/FormatableString.h
+[21.869s] -- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/msg/msg.h
+[21.879s] -- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/msg/NodesManager.h
+[21.889s] -- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/msg/TargetDescription.h
+[21.899s] -- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/consts.h
+[21.909s] -- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/types.h
+[21.919s] -- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/productids.h
+[21.930s] -- Symlinking: /home/eduardo/TX/install/asebaros/lib/libasebacompiler.so.3.0.0
+[21.940s] -- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/compiler/compiler.h
+[21.951s] -- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/compiler/errors_code.h
+[21.961s] -- Symlinking: /home/eduardo/TX/install/asebaros/lib/libasebadashelplugins.so.3.0.0
+[21.971s] -- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/transport/dashel_plugins/dashel-plugins.h
+[21.981s] -- Symlinking: /home/eduardo/TX/install/asebaros/lib/asebaros/asebaros
+[21.991s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/ament_index/resource_index/package_run_dependencies/asebaros
+[22.001s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/ament_index/resource_index/parent_prefix_path/asebaros
+[22.010s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/environment/ament_prefix_path.sh
+[22.019s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/environment/ament_prefix_path.dsv
+[22.028s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/environment/path.sh
+[22.036s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/environment/path.dsv
+[22.045s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/local_setup.bash
+[22.054s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/local_setup.sh
+[22.062s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/local_setup.zsh
+[22.071s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/local_setup.dsv
+[22.079s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/package.dsv
+[22.088s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/ament_index/resource_index/packages/asebaros
+[22.097s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/cmake/asebarosConfig.cmake
+[22.105s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/cmake/asebarosConfig-version.cmake
+[22.113s] -- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/package.xml
+[22.142s] Invoked command in '/home/eduardo/TX/build/asebaros' returned '0': AMENT_PREFIX_PATH=/home/eduardo/TX/install/asebaros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/eduardo/TX/install/asebaros_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/eduardo/TX/install/object_localization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/eduardo/TX/install/asebaros_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/eduardo/TX/install/asebaros_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/eduardo/TX/build/asebaros

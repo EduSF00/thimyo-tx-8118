@@ -1,0 +1,4 @@
+[console_scripts]
+control_follow_object = project.control.control_pid:main
+front_object = project.sensor.front_object_node:main
+trajectory_error = project.nav.trajectory_error_node:main

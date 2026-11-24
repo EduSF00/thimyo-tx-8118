@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "thymio_msgs/msg/Comm",
+      "fields": [
+        {
+          "name": "value",
+          "type": {
+            "type_id": 4,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "payloads",
+          "type": {
+            "type_id": 52,
+            "capacity": 7,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "intensities",
+          "type": {
+            "type_id": 52,
+            "capacity": 7,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "thymio_msgs/msg/Comm",
+      "hash_string": "RIHS01_70af09deb41ed68b2d385c357e7d66357b8ac9587873578f3c611980d6307bc1"
+    }
+  ]
+}

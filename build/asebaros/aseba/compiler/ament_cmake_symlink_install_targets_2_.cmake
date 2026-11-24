@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/eduardo/TX/build/asebaros/aseba/compiler/libasebacompiler.so.3.0.0" "TARGETS" "asebacompiler" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib")

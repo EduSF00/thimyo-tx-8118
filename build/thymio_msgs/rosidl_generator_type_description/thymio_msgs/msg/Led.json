@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "thymio_msgs/msg/Led",
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "values",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "thymio_msgs/msg/Led",
+      "hash_string": "RIHS01_95e060e6119c3000de78e151818ee7188c872a108e1ff13b4920b4a66f35f34c"
+    }
+  ]
+}

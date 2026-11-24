@@ -1,0 +1,1 @@
+/home/eduardo/TX/build/asebaros_examples/ament_cmake_core/asebaros_examplesConfig-version.cmake

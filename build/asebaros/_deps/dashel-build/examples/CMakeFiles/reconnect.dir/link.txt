@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/reconnect.dir/reconnect.cpp.o -o reconnect  -Wl,-rpath,/home/eduardo/TX/build/asebaros/_deps/dashel-build ../libdashel.so.1.3.3 -ludev 

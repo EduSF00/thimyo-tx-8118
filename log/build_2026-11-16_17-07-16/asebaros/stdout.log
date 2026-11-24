@@ -1,0 +1,118 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found asebaros_msgs: 0.1.0 (/home/eduardo/TX/install/asebaros_msgs/share/asebaros_msgs/cmake)
+-- Found LibXml2: /usr/lib/x86_64-linux-gnu/libxml2.so (found version "2.9.14") 
+-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- libudev found
+-- Enabling Dashel socketcan plugin
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/eduardo/TX/src/ros-aseba/asebaros/aseba;$<BUILD_INTERFACE:/home/eduardo/TX/src/ros-aseba/asebaros/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (9.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/eduardo/TX/build/asebaros
+[  5%] [32mBuilding CXX object _deps/dashel-build/CMakeFiles/dashel.dir/dashel/dashel-common.cpp.o[0m
+[  5%] [32mBuilding CXX object _deps/dashel-build/CMakeFiles/dashel.dir/dashel/dashel-posix.cpp.o[0m
+[  8%] [32m[1mLinking CXX shared library libdashel.so[0m
+[  8%] Built target dashel
+[ 11%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/utils/utils.cpp.o[0m
+[ 14%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/utils/FormatableString.cpp.o[0m
+[ 17%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/msg/NodesManager.cpp.o[0m
+[ 20%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/utils/BootloaderInterface.cpp.o[0m
+[ 23%] [32mBuilding CXX object aseba/transport/dashel_plugins/CMakeFiles/asebadashelplugins.dir/socketcan.cpp.o[0m
+[ 26%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/msg/msg.cpp.o[0m
+[ 29%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/utils/HexFile.cpp.o[0m
+[ 32%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/msg/TargetDescription.cpp.o[0m
+[ 35%] [32mBuilding CXX object aseba/common/CMakeFiles/asebacommon.dir/version.cpp.o[0m
+[ 38%] [32m[1mLinking CXX shared library libasebadashelplugins.so[0m
+[ 38%] Built target asebadashelplugins
+[ 41%] [32m[1mLinking CXX shared library libasebacommon.so[0m
+[ 41%] Built target asebacommon
+[ 44%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/parser.cpp.o[0m
+[ 47%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/tree-expand.cpp.o[0m
+[ 50%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/errors.cpp.o[0m
+[ 52%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/compiler.cpp.o[0m
+[ 55%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/tree-build.cpp.o[0m
+[ 58%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/analysis.cpp.o[0m
+[ 61%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/lexer.cpp.o[0m
+[ 64%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/identifier-lookup.cpp.o[0m
+[ 67%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/tree-dump.cpp.o[0m
+[ 70%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/tree-optimize.cpp.o[0m
+[ 73%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/tree-typecheck.cpp.o[0m
+[ 76%] [32mBuilding CXX object aseba/compiler/CMakeFiles/asebacompiler.dir/tree-emit.cpp.o[0m
+[ 79%] [32m[1mLinking CXX shared library libasebacompiler.so[0m
+[ 79%] Built target asebacompiler
+[ 82%] [32mBuilding CXX object CMakeFiles/asebaros.dir/src/asebaros_node_ros2.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/asebaros.dir/src/asebaros_node_manager_ros2.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/asebaros.dir/src/aseba_dashel_hub.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/asebaros.dir/src/asebaros_node.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/asebaros.dir/src/aseba_script.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/asebaros.dir/src/asebaros_node_manager.cpp.o[0m
+[100%] [32m[1mLinking CXX executable asebaros[0m
+[100%] Built target asebaros
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/eduardo/TX/install/asebaros/include/dashel/dashel.h
+-- Symlinking: /home/eduardo/TX/install/asebaros/include/dashel/dashel-posix.h
+-- Symlinking: /home/eduardo/TX/install/asebaros/lib/libdashel.so.1.3.3
+-- Symlinking: /home/eduardo/TX/install/asebaros/lib/libasebacommon.so.3.0.0
+-- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/utils/utils.h
+-- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/utils/FormatableString.h
+-- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/msg/msg.h
+-- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/msg/NodesManager.h
+-- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/msg/TargetDescription.h
+-- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/consts.h
+-- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/types.h
+-- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/common/productids.h
+-- Symlinking: /home/eduardo/TX/install/asebaros/lib/libasebacompiler.so.3.0.0
+-- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/compiler/compiler.h
+-- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/compiler/errors_code.h
+-- Symlinking: /home/eduardo/TX/install/asebaros/lib/libasebadashelplugins.so.3.0.0
+-- Symlinking: /home/eduardo/TX/install/asebaros/include/aseba/transport/dashel_plugins/dashel-plugins.h
+-- Symlinking: /home/eduardo/TX/install/asebaros/lib/asebaros/asebaros
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/ament_index/resource_index/package_run_dependencies/asebaros
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/ament_index/resource_index/parent_prefix_path/asebaros
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/environment/ament_prefix_path.sh
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/environment/ament_prefix_path.dsv
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/environment/path.sh
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/environment/path.dsv
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/local_setup.bash
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/local_setup.sh
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/local_setup.zsh
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/local_setup.dsv
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/package.dsv
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/ament_index/resource_index/packages/asebaros
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/cmake/asebarosConfig.cmake
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/cmake/asebarosConfig-version.cmake
+-- Symlinking: /home/eduardo/TX/install/asebaros/share/asebaros/package.xml

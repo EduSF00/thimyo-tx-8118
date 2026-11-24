@@ -1,0 +1,21 @@
+{
+  "package_name": "asebaros_msgs",
+  "output_dir": "/home/eduardo/TX/build/asebaros_msgs/rosidl_generator_type_description/asebaros_msgs",
+  "idl_tuples": [
+    "/home/eduardo/TX/build/asebaros_msgs/rosidl_adapter/asebaros_msgs:msg/Event.idl",
+    "/home/eduardo/TX/build/asebaros_msgs/rosidl_adapter/asebaros_msgs:msg/AnonymousEvent.idl",
+    "/home/eduardo/TX/build/asebaros_msgs/rosidl_adapter/asebaros_msgs:msg/Constant.idl",
+    "/home/eduardo/TX/build/asebaros_msgs/rosidl_adapter/asebaros_msgs:msg/Node.idl",
+    "/home/eduardo/TX/build/asebaros_msgs/rosidl_adapter/asebaros_msgs:msg/NodeList.idl",
+    "/home/eduardo/TX/build/asebaros_msgs/rosidl_adapter/asebaros_msgs:msg/NodeDescription.idl",
+    "/home/eduardo/TX/build/asebaros_msgs/rosidl_adapter/asebaros_msgs:srv/GetNodeList.idl",
+    "/home/eduardo/TX/build/asebaros_msgs/rosidl_adapter/asebaros_msgs:srv/GetVariable.idl",
+    "/home/eduardo/TX/build/asebaros_msgs/rosidl_adapter/asebaros_msgs:srv/LoadScript.idl",
+    "/home/eduardo/TX/build/asebaros_msgs/rosidl_adapter/asebaros_msgs:srv/SetVariable.idl",
+    "/home/eduardo/TX/build/asebaros_msgs/rosidl_adapter/asebaros_msgs:srv/GetDescription.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

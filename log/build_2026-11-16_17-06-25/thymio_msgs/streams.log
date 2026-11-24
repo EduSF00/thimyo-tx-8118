@@ -1,0 +1,33 @@
+[0.017s] Invoking command in '/home/eduardo/TX/build/thymio_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eduardo/TX/install/object_localization:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eduardo/TX/src/ros-thymio/thymio_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/eduardo/TX/install/thymio_msgs
+[0.517s] -- The C compiler identification is GNU 13.3.0
+[0.517s] -- The CXX compiler identification is GNU 13.3.0
+[0.517s] -- Detecting C compiler ABI info
+[0.517s] -- Detecting C compiler ABI info - done
+[0.518s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.518s] -- Detecting C compile features
+[0.518s] -- Detecting C compile features - done
+[0.518s] -- Detecting CXX compiler ABI info
+[0.540s] -- Detecting CXX compiler ABI info - done
+[0.545s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.545s] -- Detecting CXX compile features
+[0.546s] -- Detecting CXX compile features - done
+[0.559s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.716s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.797s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.821s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.857s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.866s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.881s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.894s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.907s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.921s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.551s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.680s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.834s] -- Found PythonExtra: /usr/bin/python3  
+[3.330s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.403s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.422s] -- Configuring done (3.4s)
+[3.465s] -- Generating done (0.0s)
+[3.478s] -- Build files have been written to: /home/eduardo/TX/build/thymio_msgs

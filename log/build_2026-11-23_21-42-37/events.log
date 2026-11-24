@@ -1,0 +1,13 @@
+[0.000000] (-) TimerEvent: {}
+[0.000177] (-) JobUnselected: {'identifier': 'asebaros'}
+[0.000212] (-) JobUnselected: {'identifier': 'asebaros_examples'}
+[0.000232] (-) JobUnselected: {'identifier': 'asebaros_msgs'}
+[0.000248] (-) JobUnselected: {'identifier': 'object-distance'}
+[0.000263] (-) JobUnselected: {'identifier': 'object_localization'}
+[0.000278] (-) JobUnselected: {'identifier': 'project'}
+[0.000292] (-) JobUnselected: {'identifier': 'project_msgs'}
+[0.000305] (-) JobUnselected: {'identifier': 'robot-scan'}
+[0.000319] (-) JobUnselected: {'identifier': 'thymio_description'}
+[0.000332] (-) JobUnselected: {'identifier': 'thymio_driver'}
+[0.000345] (-) JobUnselected: {'identifier': 'thymio_msgs'}
+[0.000359] (-) EventReactorShutdown: {}

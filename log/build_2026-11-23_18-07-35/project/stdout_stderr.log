@@ -1,0 +1,17 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:363: UserWarning: Unbuilt egg for pytest-repeat [unknown version] (/usr/lib/python3/dist-packages)
+  self.local_index = Environment(self.shadow_path + sys.path)
+running egg_info
+writing project.egg-info/PKG-INFO
+writing dependency_links to project.egg-info/dependency_links.txt
+writing entry points to project.egg-info/entry_points.txt
+writing requirements to project.egg-info/requires.txt
+writing top-level names to project.egg-info/top_level.txt
+reading manifest file 'project.egg-info/SOURCES.txt'
+writing manifest file 'project.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/eduardo/TX/install/project/lib/python3.12/site-packages/project.egg-link (link to .)
+Installing front_object script to /home/eduardo/TX/install/project/lib/project
+
+Installed /home/eduardo/TX/build/project
+running symlink_data

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "asebaros_msgs/srv/SetVariable_Request",
+      "fields": [
+        {
+          "name": "variable",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "data",
+          "type": {
+            "type_id": 148,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "asebaros_msgs/srv/SetVariable_Request",
+      "hash_string": "RIHS01_3f5eb0671909df997db7c05e2920f6bf3a65e43befea1da84892fe8c2e5dd272"
+    }
+  ]
+}
