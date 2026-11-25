@@ -26,6 +26,8 @@ endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/LocalizationObject.msg"
   "msg/Error.msg"
+  "msg/LineError.msg"
+  "msg/LineSensors.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
