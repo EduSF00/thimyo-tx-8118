@@ -28,6 +28,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Error.msg"
   "msg/LineError.msg"
   "msg/LineSensors.msg"
+  "msg/CircleState.msg"
   DEPENDENCIES std_msgs geometry_msgs
 )
 

@@ -6,7 +6,7 @@ from project_msgs.msg import LocalizationObject, Error
 POSITION_TOPIC = '/object_position'
 
 PARAM_INFO = {
-    'distance_target': (0.14, 'Target distance to the object (m), in laser reference', 0.0, 0.3),
+    'distance_target': (0.12, 'Target distance to the object (m), in laser reference', 0.0, 0.3),
     'angle_target':    (0.0,  'Target angle to the object (rad), in laser reference', -3.14, 3.14),
 }
 
