@@ -1,1 +1,0 @@
-/home/eduardo/TX/build/thymio_msgs/ament_cmake_core/thymio_msgsConfig.cmake

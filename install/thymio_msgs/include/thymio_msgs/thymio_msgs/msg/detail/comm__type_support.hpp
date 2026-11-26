@@ -1,1 +1,0 @@
-/home/eduardo/TX/build/thymio_msgs/rosidl_generator_cpp/thymio_msgs/msg/detail/comm__type_support.hpp

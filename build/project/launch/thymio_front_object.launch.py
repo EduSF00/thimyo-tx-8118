@@ -1,1 +1,0 @@
-/home/eduardo/TX/src/project/launch/thymio_front_object.launch.py

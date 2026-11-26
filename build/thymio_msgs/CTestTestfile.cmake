@@ -1,8 +1,0 @@
-# CMake generated Testfile for 
-# Source directory: /home/eduardo/TX/src/ros-thymio/thymio_msgs
-# Build directory: /home/eduardo/TX/build/thymio_msgs
-# 
-# This file includes the relevant testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.
-subdirs("thymio_msgs__py")
-subdirs("thymio_msgs__rs")

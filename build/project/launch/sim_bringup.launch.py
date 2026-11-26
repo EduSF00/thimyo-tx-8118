@@ -1,1 +1,0 @@
-/home/eduardo/TX/src/project/launch/sim_bringup.launch.py

@@ -1,1 +1,0 @@
-/home/eduardo/TX/build/asebaros_msgs/rosidl_generator_c/asebaros_msgs/msg/node_list.h

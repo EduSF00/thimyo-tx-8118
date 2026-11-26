@@ -1,3 +1,0 @@
-[console_scripts]
-error = object_localization.publisher_trajectory:main
-position = object_localization.publisher_object_localization:main

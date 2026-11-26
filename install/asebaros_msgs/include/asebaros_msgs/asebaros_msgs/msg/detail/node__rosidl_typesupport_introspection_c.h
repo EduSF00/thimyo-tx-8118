@@ -1,1 +1,0 @@
-/home/eduardo/TX/build/asebaros_msgs/rosidl_typesupport_introspection_c/asebaros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h

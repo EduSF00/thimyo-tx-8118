@@ -1,1 +1,0 @@
-/home/eduardo/TX/build/asebaros_msgs/rosidl_generator_cpp/asebaros_msgs/srv/get_node_list.hpp

@@ -1,2 +1,0 @@
-Invoking command in '/home/eduardo/TX/build/project_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eduardo/TX/src/project_msgs -DCMAKE_INSTALL_PREFIX=/home/eduardo/TX/install/project_msgs
-Invoked command in '/home/eduardo/TX/build/project_msgs' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/eduardo/TX/src/project_msgs -DCMAKE_INSTALL_PREFIX=/home/eduardo/TX/install/project_msgs

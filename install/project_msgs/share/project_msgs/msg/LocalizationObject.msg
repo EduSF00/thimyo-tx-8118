@@ -1,5 +1,0 @@
-std_msgs/Header header
-float64 distance_linear
-float64 distance_angular
-float64 sen_angular
-float64 cos_angular

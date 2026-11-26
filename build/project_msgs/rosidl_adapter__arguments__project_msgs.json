@@ -1,7 +1,0 @@
-{
-  "package_name": "project_msgs",
-  "non_idl_tuples": [
-    "/home/eduardo/TX/src/project_msgs:msg/LocalizationObject.msg",
-    "/home/eduardo/TX/src/project_msgs:msg/Error.msg"
-  ]
-}

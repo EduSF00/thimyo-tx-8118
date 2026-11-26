@@ -1,1 +1,0 @@
-/home/eduardo/TX/src/ros-aseba/asebaros_msgs/msg/NodeDescription.msg

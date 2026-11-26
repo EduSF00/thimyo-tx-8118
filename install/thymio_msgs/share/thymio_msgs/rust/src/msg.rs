@@ -1,1 +1,0 @@
-/home/eduardo/TX/build/thymio_msgs/rosidl_generator_rs/thymio_msgs/rust/src/msg.rs

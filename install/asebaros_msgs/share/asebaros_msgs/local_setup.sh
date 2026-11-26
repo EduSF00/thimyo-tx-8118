@@ -1,1 +1,0 @@
-/home/eduardo/TX/build/asebaros_msgs/ament_cmake_environment_hooks/local_setup.sh

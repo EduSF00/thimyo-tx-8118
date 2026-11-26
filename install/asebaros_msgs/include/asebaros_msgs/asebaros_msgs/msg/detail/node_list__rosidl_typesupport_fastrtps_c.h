@@ -1,1 +1,0 @@
-/home/eduardo/TX/build/asebaros_msgs/rosidl_typesupport_fastrtps_c/asebaros_msgs/msg/detail/node_list__rosidl_typesupport_fastrtps_c.h

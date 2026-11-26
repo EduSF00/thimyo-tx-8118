@@ -1,5 +1,0 @@
-std_msgs/Header header
-float64 error_linear
-float64 error_angular
-float64 error_angular_sen
-float64 error_angular_cos

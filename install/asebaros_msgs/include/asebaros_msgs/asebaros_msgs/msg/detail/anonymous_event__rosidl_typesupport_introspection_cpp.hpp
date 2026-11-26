@@ -1,1 +1,0 @@
-/home/eduardo/TX/build/asebaros_msgs/rosidl_typesupport_introspection_cpp/asebaros_msgs/msg/detail/anonymous_event__rosidl_typesupport_introspection_cpp.hpp

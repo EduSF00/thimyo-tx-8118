@@ -1,1 +1,0 @@
-/home/eduardo/TX/build/thymio_description/ament_cmake_core/thymio_descriptionConfig-version.cmake

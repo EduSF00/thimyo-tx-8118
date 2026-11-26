@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/eduardo/TX/build/asebaros_msgs/rosidl_generator_py/asebaros_msgs/asebaros_msgs_s__rosidl_typesupport_introspection_c.so" "TARGETS" "asebaros_msgs_s__rosidl_typesupport_introspection_c" "DESTINATION" "lib/python3.12/site-packages/asebaros_msgs")

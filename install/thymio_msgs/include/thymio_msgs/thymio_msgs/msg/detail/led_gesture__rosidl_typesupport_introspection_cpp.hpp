@@ -1,1 +1,0 @@
-/home/eduardo/TX/build/thymio_msgs/rosidl_typesupport_introspection_cpp/thymio_msgs/msg/detail/led_gesture__rosidl_typesupport_introspection_cpp.hpp

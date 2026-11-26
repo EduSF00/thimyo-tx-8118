@@ -1,8 +1,0 @@
-source;share/asebaros_examples/hook/cmake_prefix_path.ps1
-source;share/asebaros_examples/hook/cmake_prefix_path.dsv
-source;share/asebaros_examples/hook/cmake_prefix_path.sh
-source;share/asebaros_examples/local_setup.bash
-source;share/asebaros_examples/local_setup.dsv
-source;share/asebaros_examples/local_setup.ps1
-source;share/asebaros_examples/local_setup.sh
-source;share/asebaros_examples/local_setup.zsh
