@@ -41,25 +41,25 @@ def generate_launch_description():
 
     distance_target_arg = DeclareLaunchArgument(
         'distance_target',
-        default_value='0.14',
+        default_value='0.12',
         description='Distância desejada até o objeto (m)',
     )
     angle_target_arg = DeclareLaunchArgument(
         'angle_target',
-        default_value='0.0',
+        default_value='-0.60',
         description='Ângulo desejado até o objeto (rad)',
     )
 
-    front_object_node = Node(
+    distance_object_front = Node(
         package='project',
-        executable='front_object',
-        name='object_localization',
+        executable='distance_object_front',
+        name='distance',
         output='screen',
     )
-    trajectory_error_node = Node(
+    error_distance = Node(
         package='project',
-        executable='trajectory_error',
-        name='trajectory',
+        executable='error_distance_obeject_front',
+        name='error_distance',
         output='screen',
         parameters=[{
             'distance_target': LaunchConfiguration('distance_target'),
@@ -67,10 +67,10 @@ def generate_launch_description():
         }],
     )
 
-    control_follower = Node(
+    wall_follower = Node(
         package='project',
-        executable='control_follow_object',
-        name='object_follower',
+        executable='wall_follower_control',
+        name='Wall_follower',
         output='screen',
     )
 
@@ -81,7 +81,7 @@ def generate_launch_description():
         simulation_arg,
         emit_ground_raw_arg,
         thymio_driver_launch,
-        front_object_node,
-        trajectory_error_node,
-        control_follower,
+        distance_object_front,
+        error_distance,
+        wall_follower,
     ])
