@@ -35,7 +35,7 @@ setup(
             
             'wall_follower_control = project.control.wall_follower_control:main',
 
-            'line_follower_control = project.control.line_control:main',
+            'line_follower_control = project.control.line_follower_control:main',
             'line_follower_sensor = project.sensor.line_sensors:main',
             'line_follower_error = project.nav.line_error:main',
 

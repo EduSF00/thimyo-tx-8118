@@ -51,7 +51,7 @@ def generate_launch_description():
     )
     radius_arg = DeclareLaunchArgument(
         'R',
-        default_value='0.30',
+        default_value='0.40',
         description='Raio do círculo (m)',
     )
     sense_arg = DeclareLaunchArgument(
@@ -61,18 +61,18 @@ def generate_launch_description():
     )
     v_arg = DeclareLaunchArgument(
         'v',
-        default_value='0.08',
+        default_value='0.20',
         description='Velocidade linear nominal (m/s)',
     )
     k_arg = DeclareLaunchArgument(
         'k',
-        default_value='2.0',
-        description='Ganho proporcional angular',
+        default_value='1.0',
+        description='Ganho proporcional angular (sobre o desvio; feedforward v/R é automático)',
     )
     delta_deg_arg = DeclareLaunchArgument(
         'delta_deg',
-        default_value='25.0',
-        description='Avanço angular delta no círculo (graus)',
+        default_value='45.0',
+        description='Avanço angular delta no círculo (graus); maior = mais suave/estável',
     )
     max_omega_arg = DeclareLaunchArgument(
         'max_omega',

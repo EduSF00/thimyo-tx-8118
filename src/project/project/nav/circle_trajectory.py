@@ -19,11 +19,12 @@ class TrajectoryNode(Node):
         self.declare_parameter('R', 0.30)
         self.declare_parameter('sense', 1.0)
         self.declare_parameter('v', 0.08)
-        self.declare_parameter('k', 2.0)
-        self.declare_parameter('delta_deg', 25.0)
+        self.declare_parameter('k', 1.0)
+        self.declare_parameter('delta_deg', 45.0)
 
-        self.cx = self.get_parameter('cx').value
-        self.cy = self.get_parameter('cy').value
+        # float() aceita tanto 'nan' (string vinda do launch) quanto float('nan')
+        self.cx = float(self.get_parameter('cx').value)
+        self.cy = float(self.get_parameter('cy').value)
         self.R = float(self.get_parameter('R').value)
         self.sense = 1.0 if float(self.get_parameter('sense').value) >= 0.0 else -1.0
         self.v = float(self.get_parameter('v').value)
@@ -99,7 +100,9 @@ class TrajectoryNode(Node):
         self.pub_target.publish(target_msg)
 
         state_msg = Float64MultiArray()
-        state_msg.data = [float(phi), float(self.laps), float(self.v), float(self.k), float(self.sense)]
+        # [phi, voltas, v, k, sense, R, delta] -> R e delta usados no feedforward do controle
+        state_msg.data = [float(phi), float(self.laps), float(self.v), float(self.k),
+                          float(self.sense), float(self.R), float(self.delta)]
         self.pub_state.publish(state_msg)
 
 
