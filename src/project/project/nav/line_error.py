@@ -1,30 +1,3 @@
-"""
-NODE: line_error
-
-WHAT IT IMPORTS (receives)
-  Topic  : /line_sensors
-  Type   : project_msgs/msg/LineSensors
-  Format : header         -> time of the reading
-           left_darkness  -> 0.0 (floor) ... 1.0 (line)
-           right_darkness -> 0.0 (floor) ... 1.0 (line)
-           line_position  -> left_darkness - right_darkness (positive = line on the left)
-           line_detected  -> True if at least one sensor sees the line
-  Use    : line_position is compared with the reference to compute the error;
-           line_detected and header are copied to the output;
-           left_darkness and right_darkness are not needed here (they are already in line_position).
-
-WHAT IT EXPORTS (publishes)
-  Topic  : /line_error
-  Type   : project_msgs/msg/LineError
-  Format : header        -> same time of the reading
-           error         -> line_position - LINE_REFERENCE
-                            (positive = line on the left, negative = line on the right, 0 = centered)
-           line_detected -> same value received
-
-The reference is always 0.0 ("keep the line centered between the two sensors"),
-so the goal of the robot is to bring the error to zero.
-"""
-
 import rclpy
 from rclpy.node import Node
 from project_msgs.msg import LineSensors, LineError   # INPUT: LineSensors | OUTPUT: LineError

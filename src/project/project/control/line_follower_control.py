@@ -1,34 +1,3 @@
-"""
-NODE: line_control
-
-WHAT IT IMPORTS (receives)
-  Topic  : /line_error
-  Type   : project_msgs/msg/LineError
-  Format : header        -> time of the reading (not used here: the time between messages is measured on arrival)
-           error         -> position of the line minus the reference
-                            (positive = line on the left, negative = line on the right, 0 = centered)
-           line_detected -> True if at least one sensor sees the line
-  Use    : line_detected decides what to do:
-             True  -> follow the line: the error goes into the PID that gives the turn speed
-             False -> search for the line: goes straight for a while, then rotates
-           error is the input of the PID (kp * error + ki * integral + kd * derivative)
-
-WHAT IT EXPORTS (publishes)
-  Topic  : /cmd_vel
-  Type   : geometry_msgs/msg/Twist
-  Format : linear.x  -> forward speed (m/s): slows down or speeds up as the error grows
-           angular.z -> turn speed (rad/s): positive = turns left, negative = turns right
-           (all the other fields stay at 0)
-
-SAFETY
-  The driver keeps the last velocity it received, so if no /line_error arrives for
-  MESSAGE_TIMEOUT seconds the node publishes zero velocity (the robot stops).
-  The robot is also stopped when the node is closed with Ctrl+C.
-
-PARAMETERS (can be changed while the robot is running), for example:
-  ros2 param set /line_control kp 0.6
-"""
-
 import rclpy
 from rclpy.node import Node
 from rcl_interfaces.msg import FloatingPointRange, ParameterDescriptor

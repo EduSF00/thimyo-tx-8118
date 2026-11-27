@@ -50,15 +50,15 @@ def generate_launch_description():
         description='Ângulo desejado até o objeto (rad)',
     )
 
-    distance_object_front = Node(
+    follow_object_distance = Node(
         package='project',
-        executable='distance_object_front',
+        executable='follow_object_distance',
         name='distance',
         output='screen',
     )
-    error_distance = Node(
+    follow_object_error = Node(
         package='project',
-        executable='error_distance_obeject_front',
+        executable='follow_object_error',
         name='error_distance',
         output='screen',
         parameters=[{
@@ -67,9 +67,9 @@ def generate_launch_description():
         }],
     )
 
-    control_follower = Node(
+    follow_object_control = Node(
         package='project',
-        executable='control_follow_object',
+        executable='follow_object_control',
         name='object_follower',
         output='screen',
     )
@@ -81,7 +81,7 @@ def generate_launch_description():
         simulation_arg,
         emit_ground_raw_arg,
         thymio_driver_launch,
-        distance_object_front,
-        error_distance,
-        control_follower,
+        follow_object_distance,
+        follow_object_error,
+        follow_object_control,
     ])

@@ -29,14 +29,15 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'distance_object_front = project.sensor.distance_object_front:main',
-            'error_distance_obeject_front = project.nav.error_distance_object_front:main',
-            'control_follow_object = project.control.object_follower_control:main',
+            'follow_object_distance = project.sensor.distance_object:main',
+            'follow_object_error = project.nav.object_error:main',
+            'follow_object_control = project.control.object_follower_control:main',
+            
             'wall_follower_control = project.control.wall_follower_control:main',
 
-            'line_follower_control = project.control.line_control_node:main',
-            'line_follower_sensor = project.sensor.line_sensors_node:main',
-            'line_follower_error = project.nav.line_error_node:main',
+            'line_follower_control = project.control.line_control:main',
+            'line_follower_sensor = project.sensor.line_sensors:main',
+            'line_follower_error = project.nav.line_error:main',
 
             'circle_sensor = project.sensor.circle_sensor:main',
             'circle_error = project.nav.circle_error:main',
